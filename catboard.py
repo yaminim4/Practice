@@ -36,5 +36,5 @@ hatted_cats = []
 for iob, j in enumerate(cats): # iob = index of object, j = object in list "cats"
     if j == 1:                 # enumerate used to refer to both index and object
         hatted_cats.append(iob)
-print len(hatted_cats)
+print len(hatted_cats) # => 10 cats are hatted
 print hatted_cats # => [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
