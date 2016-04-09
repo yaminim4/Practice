@@ -2,7 +2,7 @@
 
 ascending_p = []
 def ascender(p):
-    while p != []:  # Could use recursion instead of a while loop?
+    while p != []:  # Could use recursion instead of a while loop? --> probably not, because nothing can be done with the base case (p == [])
         a = min(p)
         ascending_p.append(a)
         p.remove(a)
