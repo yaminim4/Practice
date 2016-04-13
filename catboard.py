@@ -13,7 +13,7 @@
 # which cats will have hats on?
 
 # Step 1: Populate list with 100 hatless cats, represented by 0.
-cats = [0]      # empty list did not work for some reason. Need to figure it out.
+cats = [0]      # empty list did not work for some reason. Need to figure it out. (update: use approach in FizzBuzz)
 p = 2            # need to figure out how this happened in detail (did it using trial and error)
 for c in cats:
     if p > 100: break
