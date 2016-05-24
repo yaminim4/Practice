@@ -23,8 +23,8 @@ m = "trial"
 reverser(m) # => "lairt" works.
 
 # Accomodate user input
+s = raw_input('Enter words to be reversed:\n')
 def reverser(s):
-    s = raw_input('Enter words to be reversed:\n')
     i = -1
     new_string = ''
     for letter in s:
